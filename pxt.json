@@ -1,0 +1,34 @@
+{
+    "name": "fred",
+    "description": "",
+    "dependencies": {
+        "device": "*",
+        "edge-connector": "*",
+        "sevenseg": "*",
+        "pxt-circuit-playground-character-icons": "github:adafruit/circuit-playground-character-icons#v0.0.8",
+        "Timers": "github:microsoft/arcade-timers#v1.1.0",
+        "keyboard": "*",
+        "settings-blocks": "github:microsoft/pxt-settings-blocks#v1.0.0",
+        "Accel Racing": "pkg:Accel Racing.json",
+        "animation": "*"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md",
+        "tilemap.g.jres",
+        "tilemap.g.ts",
+        "Accel Racing.json"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "1.2.9",
+        "targetId": "arcade"
+    },
+    "supportedTargets": [
+        "arcade"
+    ],
+    "preferredEditor": "blocksprj"
+}
